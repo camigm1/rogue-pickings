@@ -1,0 +1,109 @@
+/*****BASE STYLES*****/
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*** HEADER ***/
+header {
+  text-transform: uppercase;
+  margin: 23px 0px;
+}
+
+header h1 {
+  font-weight: 900;
+  margin-bottom: 15px;
+  display: inline;
+  padding: 30px 0px;
+  font-weight: 700;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+header nav {
+  float: right;
+  display: inline;
+}
+
+nav ul li {
+  list-style: none;
+  float: right;
+  margin-bottom: 15px;
+}
+
+li a {
+  text-decoration: none;
+  color: #77a466;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/***HERO***/
+img {
+  margin: 0 auto;
+  display: block;
+  margin: 0px;
+}
+
+.beans {
+  display: block;
+  border-top: 2px solid #77a466;
+  border-bottom: 2px solid #77a466;
+}
+
+/***Main***/
+h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+/***content***/
+.content {
+  height: 200px;
+  border-top: 1px #d9d9d9 solid;
+  border-bottom: 1px #d9d9d9 solid;
+  display: flex;
+}
+.reviews,
+.contact,
+.specials {
+  display: inline;
+  padding: 7px;
+  width: 399px;
+}
+
+.greencolor {
+  color: #77a466;
+}
+
+.reviews {
+  border-left: 1px #d9d9d9 solid;
+  border-right: 1px #d9d9d9 solid;
+}
+
+.specials ul {
+  list-style: none;
+  padding: 0px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.contact p {
+  width: 350px;
+  text-align: left;
+}
+/***Footer***/
+footer h3 {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer .green {
+  color: #77a466;
+  font-family: "Galada", "cursive";
+}
