@@ -1,6 +1,6 @@
 /*****BASE STYLES*****/
 body {
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
 }
@@ -9,6 +9,11 @@ body {
 header {
   text-transform: uppercase;
   margin: 23px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  text-align: center;
 }
 
 header h1 {
@@ -28,6 +33,13 @@ header nav {
   display: inline;
 }
 
+nav ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 nav ul li {
   list-style: none;
   float: right;
@@ -43,29 +55,57 @@ li a {
 
 /***HERO***/
 img {
+  width: 100%;
   margin: 0 auto;
   display: block;
-  margin: 0px;
+  /* margin: 0px;
+  display: flex; */
+  /* flex: 1 auto; */
 }
 
 .beans {
-  display: block;
+  /* display: flex;
+  width: 100%; */
+  /* flex-shrink: 1; */
+  /* display: block; */
   border-top: 2px solid #77a466;
   border-bottom: 2px solid #77a466;
 }
 
 /***Main***/
+main {
+  display: flex;
+  flex-flow: column wrap;
+}
 h2 {
   color: #77a466;
   text-transform: uppercase;
 }
 
 /***content***/
+
+.intro-section {
+  width: 100%;
+}
+
+.intro-section {
+  padding: 15px;
+}
+
+.intro-section p {
+  font-size: 12px;
+}
+
+.intro-section h2 {
+  font-size: 16px;
+}
 .content {
+  font-size: 12px;
   height: 200px;
   border-top: 1px #d9d9d9 solid;
   border-bottom: 1px #d9d9d9 solid;
   display: flex;
+  flex-flow: column;
 }
 .reviews,
 .contact,
@@ -98,6 +138,9 @@ h3 {
   text-align: left;
 }
 /***Footer***/
+footer {
+  display: flex;
+}
 footer h3 {
   font-size: 14px;
   text-align: center;
@@ -106,4 +149,10 @@ footer h3 {
 footer .green {
   color: #77a466;
   font-family: "Galada", "cursive";
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
 }
