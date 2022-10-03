@@ -5,6 +5,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  /* font-size: 1rem; */
+}
+
 /*** HEADER ***/
 header {
   text-transform: uppercase;
@@ -101,7 +105,7 @@ h2 {
 
 .intro-section p {
   width: 85%;
-  font-size: 12px;
+  font-size: 1rem;
   margin: 0 auto;
   line-height: 25px;
 }
@@ -109,10 +113,10 @@ h2 {
 .intro-section h2 {
   width: 85%;
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 20px;
 }
 .content {
-  font-size: 12px;
+  font-size: 16px;
   /* height: 200px; */
   /* border-top: 1px #d9d9d9 solid;
   border-bottom: 1px #d9d9d9 solid; */
@@ -139,7 +143,7 @@ h2 {
 }
 
 .reviews p {
-  line-height: 15px;
+  line-height: 18px;
 }
 
 .specials ul {
@@ -185,6 +189,13 @@ footer .green {
   .contact,
   .specials {
     width: 30%;
+  }
+
+  .reviews {
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left: 1px #d9d9d9 solid;
+    border-right: 1px #d9d9d9 solid;
   }
 }
 
