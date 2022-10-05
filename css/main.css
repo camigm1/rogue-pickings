@@ -121,16 +121,20 @@ h2 {
   /* border-top: 1px #d9d9d9 solid;
   border-bottom: 1px #d9d9d9 solid; */
   /* display: flex; */
-  /* flex-flow: column; */
+  flex-direction: column;
+  justify-content: center;
   width: 90%;
   margin: 0 auto;
 }
 .reviews,
 .contact,
 .specials {
-  display: inline;
+  /* margin: 0 auto; */
+  /* display: inline; */
   /* padding: 7px; */
   /* width: 399px; */
+  justify-content: center;
+  width: 100%;
 }
 
 .greencolor {
@@ -139,12 +143,14 @@ h2 {
 
 .reviews p {
   line-height: 18px;
+  width: 100%;
 }
 
 .specials ul {
   list-style: none;
   padding: 0px;
   line-height: 30px;
+  width: 100%;
 }
 
 h3 {
@@ -175,6 +181,7 @@ footer .green {
 @media (min-width: 768px) {
   .content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border-top: 0.5px solid rgb(221, 221, 221);
     border-bottom: 0.5px solid rgb(221, 221, 221);
