@@ -1,2 +1,2 @@
 # rogue-pickings
-A static landing site for a restaurant
+A responsive site using flexbox, html, and css
